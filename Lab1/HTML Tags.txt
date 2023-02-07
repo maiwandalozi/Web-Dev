@@ -1,0 +1,7 @@
+Paragraph: <p>Welcome to my page</p>
+Heading: <h1>Information about the website</h1>
+Italic font: <em>Maiwand Alozi</em>
+Bold font: <strong>Maiwand Alozi</strong>
+
+
+* The paragraph and the heading must come inside the body, remember to close the heading and the paragraph after it is finished
