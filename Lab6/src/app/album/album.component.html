@@ -1,0 +1,22 @@
+<img class="backimg" src="https://pic.onlinewebfonts.com/svg/img_72443.png" (click)="goBack()">
+
+<div class="container">
+  <div class="container_title_box" *ngIf="isEdit===false">
+    <a></a>
+    <p class="container_title" (click)="goToPhotos(album.id)">
+      Title: {{album.title}}
+    </p>
+    <button class="container_but" (click)="edit()">
+      Edit
+    </button>
+
+  </div>
+  <div class="container_change" *ngIf="isEdit===true">
+    <input class="container_inp" [(ngModel)]="editableText" type="text">
+    <button class="container_but2" (click)="save()">
+      Save
+    </button>
+  </div>
+  <img
+    src="https://images.unsplash.com/photo-1637443966109-8f1d88ea113b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80">
+</div>
