@@ -1,0 +1,6 @@
+v = int(input("Enter an Integer 1:"))
+t = int(input("Enter an Integer 2:"))
+
+distance = v * t
+final_mark = distance % 109
+print(final_mark)

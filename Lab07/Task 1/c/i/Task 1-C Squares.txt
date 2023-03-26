@@ -1,0 +1,6 @@
+a = int(input("Enter an Integer 1:"))
+b = int(input("Enter an Integer 2:"))
+
+for i in range(a, b+1):
+    if int(i**0.5)**2 == i:
+        print(i, end=' ')

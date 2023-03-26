@@ -1,0 +1,14 @@
+if __name__ == '__main__':
+    n = int(input())
+    arr = list(map(int, input().split()))
+    
+    # Get the maximum value in the array
+    max_val = max(arr)
+    
+    # Remove all occurrences of the maximum value from the array
+    arr = list(filter(lambda a: a != max_val, arr))
+    
+    # Get the maximum value in the new array, which is the runner-up score
+    runner_up_score = max(arr)
+    
+    print(runner_up_score)

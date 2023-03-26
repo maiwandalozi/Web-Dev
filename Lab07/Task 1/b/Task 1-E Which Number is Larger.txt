@@ -1,0 +1,11 @@
+num1 = int(input("Enter an Integer 1:"))
+num2 = int(input("Enter an Integer 2:"))
+
+if num1 > num2:
+    greater = 1
+elif num2 > num1:
+    greater = 2
+else:
+    greater = 0
+
+print(greater)

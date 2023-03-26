@@ -1,0 +1,7 @@
+correct_answer = int(input("Enter an Integer 1:"))
+student_answer = int(input("Enter an Integer 2:"))
+
+if student_answer == 1 and correct_answer % 10 == correct_answer // 1000 and (correct_answer // 10) % 10 == (correct_answer // 100) % 10:
+    print("YES")
+else:
+    print("NO")

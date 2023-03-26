@@ -1,0 +1,6 @@
+N = int(input("Enter an Integer 1:"))
+K = int(input("Enter an Integer 2:"))
+
+apples_per_student = K // N
+leftover_apples = K % N
+print(leftover_apples)

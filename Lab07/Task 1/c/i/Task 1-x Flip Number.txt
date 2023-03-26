@@ -1,0 +1,2 @@
+x = input("Enter an Integer:")
+print(int(x[::-1]))

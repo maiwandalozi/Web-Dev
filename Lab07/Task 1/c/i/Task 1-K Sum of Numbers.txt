@@ -1,0 +1,4 @@
+N = int(input("Enter Numbers to Sum: "))
+numbers = [int(input()) for i in range(N)]
+total = sum(numbers)
+print(total)

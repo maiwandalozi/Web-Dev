@@ -1,0 +1,8 @@
+a = int(input("Enter an Integer 1:"))
+b = int(input("Enter an Integer 2:"))
+c = int(input("Enter an Integer 3:"))
+d = int(input("Enter an Integer 4:"))
+
+for i in range(a, b+1):
+    if i % d == c:
+        print(i, end=' ')

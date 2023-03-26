@@ -1,0 +1,4 @@
+N = int(input("Enter the number of numbers: "))
+numbers = [int(input()) for i in range(N)]
+zeros = numbers.count(0)
+print(zeros)

@@ -1,0 +1,9 @@
+n = int(input("Enter the number of elements in the array: "))
+arr = list(map(int, input("Enter the elements of the array separated by space: ").split()))
+
+count = 0
+for i in range(n):
+    if arr[i] > 0:
+        count += 1
+
+print("The number of positive elements in the array is:", count)

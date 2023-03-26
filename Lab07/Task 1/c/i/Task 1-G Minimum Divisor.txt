@@ -1,0 +1,11 @@
+x = int(input("Enter an Integer: "))
+
+# Check all numbers from 2 up to the square root of x
+for i in range(2, int(x ** 0.5) + 1):
+    # If i divides x without remainder, i is a divisor of x
+    if x % i == 0:
+        print(i)
+        break
+else:
+    # If no divisor was found, x is a prime number
+    print("No divisor found. The number is prime.")
