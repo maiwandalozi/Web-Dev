@@ -1,0 +1,68 @@
+.home {
+  position: relative;
+  border-radius: 10px;
+  border: 2px solid purple;
+  display: flex;
+  flex-direction: row;
+  column-gap: 50px;
+  margin-top: 100px;
+  width: 800px;
+  margin-left: 350px;
+  padding: 30px;
+
+  &_companies {
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid green;
+
+    &_title {
+      cursor: pointer;
+      margin-left: auto;
+      margin-right: auto;
+      font-weight: 700;
+      font-size: 24px;
+      &:hover{
+        background-color: bisque;
+        text-decoration: underline;
+      }
+    }
+    &_image{
+      border: 1px solid wheat;
+      margin-right: auto;
+      margin-left: auto;
+      height: 400px;
+      width: 90%;
+     }
+
+  }
+
+  &_vacancies {
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid green;
+
+    &_title {
+      cursor: pointer;
+      margin-left: auto;
+      margin-right: auto;
+      font-weight: 700;
+      font-size: 24px;
+      &:hover{
+        background-color: bisque;
+        text-decoration: underline;
+      }
+    }
+    &_image{
+      border: 1px solid wheat;
+      margin-right: auto;
+      margin-left: auto;
+      background-image: url("https://podolsk.msr.mosreg.ru/files/image/07/79/68/lg!zj6.jpg");
+      height: 400px;
+      width: 90%;
+    }
+  }
+}
